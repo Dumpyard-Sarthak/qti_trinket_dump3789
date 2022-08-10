@@ -1,0 +1,44 @@
+{
+  "comment"       : "editable description",
+  "version"       : 20210618,
+  "filter_content": [
+    {
+      "name": "gl_oom",
+      "tag" : ["com.instagram.android", "com.facebook.katana", "com.facebook.orca", "com.facebook.pages.app", "com.excean.gspace"]
+    },
+    {
+      "name": "brk_s2w",
+      "tag" : [
+        "com.autonavi.minimap", "com.autonavi.amapauto", "cn.bus365.wyc.drivergd", "cn.hznetroute.AAdriver",
+        "com.eamobile.nbajam_na_wf", "com.tuotuo.driver", "com.keubano.zhdz", "com.jsyc.driver", "net.untrip.app.lczcd",
+        "com.CharmingAgencys.nearme.gamecenter", "com.frontline.DesertEscape.nearme.gamecenter", "com.zsfz.zsjmnjs.nearme.gamecenter",
+        "com.yx", "com.smile.gifmaker"
+      ]
+    },
+    {
+      "name": "ui_first_black",
+      "tag" : [
+        "com.icbc.im", "com.bill99.kuaiyishua", "com.andromeda.androbench2", "com.tencent.tmgp.sgame", "com.tencent.tmgp.pubgmhd"
+      ]
+    },
+    {
+      "name": "gl_thread_ux",
+      "tag" : [
+        "com.coloros.gallery3d", "com.smile.gifmaker", "com.autonavi.minimap", "com.google.android.apps.maps", "com.snapchat.android", "com.tencent.mobileqq", "com.oppo.camera"
+      ]
+    },
+    {
+      "name": "scroll_opt",
+      "tag" : [
+        "com.google.android.youtube","com.twitter.android","com.lazada.android","com.shopee.ph","com.opera.browser"
+       ],
+      "value": [
+        "[com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity, com.google.android.apps.youtube.app.honeycomb.Shell$HomeActivity]",
+        "[com.twitter.app.main.MainActivity]",
+        "[com.lazada.android.pdp.module.detail.LazDetailActivity]",
+        "[om.shopee.app.ui.home.HomeActivity_]",
+        "[com.opera.android.BrowserActivity]"
+      ]
+    }
+  ]
+}
